@@ -1,0 +1,13 @@
+@font-face {
+	font-family: "Ultra-Regular";
+	src: url('Ultra-Regular.ttf');
+}
+h1 {
+	font-family: "Ultra-Regular";
+	font-size: 50px;
+	background: linear-gradient(to right, red, yellow);
+    background-clip: text;
+	color: transparent;
+	display: inline-block;
+}
+.big { font-size: 1.3em; }
