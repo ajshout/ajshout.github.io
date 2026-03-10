@@ -1,13 +1,48 @@
+/* css makes me wish I was illiterate */
 @font-face {
 	font-family: "Ultra-Regular";
 	src: url('Ultra-Regular.ttf');
 }
-h1 {
-	font-family: "Ultra-Regular";
-	font-size: 50px;
-	background: linear-gradient(to right, red, yellow);
-    background-clip: text;
-	color: transparent;
-	display: inline-block;
+body {
+  background-color: darkgray;
 }
+.logo {
+	display: flex;
+	justify-content: center;
+}
+.navigation {
+	text-align: center;
+	background-color: #f70000;
+    margin-left: 530px;
+    margin-right: 530px;
+	padding: inherit;
+}
+.navigation ul {
+	display:flex;
+	justify-content:space-around;
+}
+.navigation a {
+	color: white;
+}
+.navigation a:hover {
+	color: yellow;
+}
+ul {
+	padding: 0px 5px;
+	margin-bottom: 0px;
+}
+.content {
+	display: flow-root;
+	text-align: center;
+	background-color: white;
+	margin-left: 530px;
+	margin-right: 530px;
+	margin-bottom: 530px;
+}
+.div1  {
+	display: flex;
+	justify-content: center;
+}
+
+ 
 .big { font-size: 1.3em; }
