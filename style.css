@@ -13,8 +13,6 @@ body {
 .navigation {
 	text-align: center;
 	background-color: #f70000;
-    margin-left: 530px;
-    margin-right: 530px;
 	padding: inherit;
 }
 .navigation ul {
@@ -35,9 +33,6 @@ ul {
 	display: flow-root;
 	text-align: center;
 	background-color: white;
-	margin-left: 530px;
-	margin-right: 530px;
-	margin-bottom: 530px;
 }
 .div1  {
 	display: flex;
