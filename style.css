@@ -4,7 +4,7 @@
 	src: url('Ultra-Regular.ttf');
 }
 body {
-  background-color: darkgray;
+  background-image: url("bg.png");
 }
 .logo {
 	display: flex;
